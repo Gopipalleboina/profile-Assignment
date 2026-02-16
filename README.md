@@ -21,30 +21,20 @@ Light / Dark theme toggle
 
 Clean modular backend architecture
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 🔹 Backend
-
-Node.js
-
-Express.js
-
-MongoDB Atlas
-
-Mongoose
-
-dotenv
-
-CORS
-
+     Node.js
+     Express.js
+     MongoDB Atlas
+     Mongoose
+     dotenv
+     CORS
 🔹 Frontend
+    React.js
+    Axios
+    CSS
 
-React.js
-
-Axios
-
-CSS
-
-📁 Folder Structure
+## 📁 Folder Structure
 project-root/
 │
 ├── backend/
@@ -63,8 +53,8 @@ project-root/
 
 ## ⚙️ Setup Instructions (Run Locally)
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/Gopipalleboina/profile-Assignment.git
+cd profile-Assignment
 
 2️⃣ Setup Backend
 cd backend
@@ -83,8 +73,7 @@ npm run dev
 
 
 ## Server will run at:
-
-http://localhost:5000
+   http://localhost:5000
 
 ## 3️⃣ Setup Frontend
 cd frontend
@@ -130,17 +119,11 @@ No secrets are committed to GitHub
 
 ## 🌍 Deployment
 
-You can deploy:
-
+## You can deploy:
 Backend:
-
-Render
-
-Railway
-
+  Vercel
 Frontend:
-
-Vercel
+  Vercel
 
 
 ## Author
