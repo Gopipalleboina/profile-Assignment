@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const Api=axios.create({
-    baseURL: "http://localhost:5000/api"
+    baseURL: "https://profile-assignment-backend-65wj.onrender.com/api"
 });
 
 export const updateTheme=(theme)=>{
