@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.container.light{
+    background-color: #f4f4f4;
+    color: black;
+}
+.container.dark{
+    background-color: #121212;
+    color: white;
+}
+.theme-btn{
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.card{
+    width:400px;
+    padding:20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    background: white;
+}
+.profile-img{
+    width: 120px;
+    border-radius: 50%;
+}
+.skills{
+    margin-top: 10px;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+button{
+    cursor: pointer;
+}
+.social a{
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: blue;
+}
+.dark{
+    background: #111;
+    color: white;
+}
+.dark .card{
+    background: #1e1e1e;
+}
